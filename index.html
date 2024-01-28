@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Messages Generator</title>
+
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,700&family=Shrikhand&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/effd3867de.js" crossorigin="anonymous"></script>
+
+  <!-- flip.js-->
+  <link rel="stylesheet" href="flip/flip.min.css" />
+  <script src="flip/flip.min.js"></script>
+
+  <script src="js/polyryhtms.js" defer></script>
+
+  <link rel="stylesheet" href="css/poly.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="empty"></div>
+
+    <!-- <img src="origlogo.png"> -->
+    <div class="contact">
+      <a>ts</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="page-1">
+      <div class="section-a">
+        <div class="text-section">
+          <div class="title">
+            <p>Sweet message <br> Generator</p>
+          </div>
+          <div class="description">
+            <p>Generate random sweet messages for your
+              Partner, <br> Make them feel loved and valued.
+              Give them the <br> love and loyalty they deserve.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-b">
+        <div class="container">
+          <div class="message">
+            <div class="border">
+
+              <div class="tick" data-did-init="handleTickInit">
+                <div data-repeat="true" data-layout="horizontal center fit"
+                  data-transform="preset(d, h, m, s) -> delay">
+                  <div class="tick-group">
+                    <div data-key="value" data-repeat="true" data-transform="pad(00) -> split -> delay">
+                      <span data-view="flip"></span>
+                    </div>
+                    <span data-key="label" data-view="text" class="tick-label"></span>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+          <!-- <div class="generate">
+            <button id="gen-text">Generate Message</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="page-2">
+
+
+      <div id="control-bar-wrapper">
+        <div id="control-bar">
+          <button id="sound-toggle" class="toggle" type="button" data-toggled="false" onClick="handleSoundToggle()"
+            title="Toggle Pulse">
+            <i class="fa-solid fa-music-slash off"></i>
+            <i class="fa-solid fa-music on"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- <div id="background-image"></div>
+
+      <div id="background-filter"></div> -->
+
+      <div id="logo">
+        <img src="https://assets.codepen.io/1468070/Hyperplexed+Logo+-+White.png" alt="" />
+      </div>
+
+      <div id="sound-message">
+        <p>Click anywhere to toggle sound</p>
+      </div>
+
+      <canvas id="paper"></canvas>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <!-- <p>Follow my Socials</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/Solidbullet" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://github.com/BulletOnli" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/gem.muel/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@bulletonlyy" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+    <div class="credits">
+      <small> © 2022 Gemmuel Dela Pena. All Rights Reserved</small>
+    </div> -->
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
